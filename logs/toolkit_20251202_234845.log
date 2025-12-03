@@ -1,0 +1,17 @@
+[2025-12-02 23:48:45] INFO: Aplicação GUI iniciada
+[2025-12-02 23:49:20] ERROR: Erro ao executar: ['wmic', 'qfe', 'list', 'brief', '/format:list'] -> [WinError 2] O sistema não pode encontrar o arquivo especificado
+[2025-12-02 23:49:20] INFO: CMD: ['netsh', 'advfirewall', 'show', 'allprofiles'] -> RC=0
+[2025-12-02 23:49:20] INFO: CMD: ['sc', 'query', 'WinDefend'] -> RC=0
+[2025-12-02 23:49:21] INFO: CMD: ['powershell', '-Command', 'Get-ExecutionPolicy -List'] -> RC=0
+[2025-12-02 23:49:21] INFO: Resultado de action_audit_security enviado para viewer tabular.
+[2025-12-02 23:49:58] INFO: CMD: ['control', 'printers'] -> RC=1
+[2025-12-02 23:49:58] INFO: Executado: action_impressoras_panel
+[2025-12-02 23:50:19] INFO: CMD: ['powershell', '-Command', "Get-ChildItem -Path 'C:\\Users\\JOOPED~1\\AppData\\Local\\Temp' -Recurse -Force | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"] -> RC=1
+[2025-12-02 23:50:19] INFO: CMD: ['powershell', '-Command', "Get-ChildItem -Path 'C:\\Windows\\Temp' -Recurse -Force | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"] -> RC=0
+[2025-12-02 23:50:19] INFO: CMD: ['powershell', '-Command', "Remove-Item -Path 'C:\\Windows\\Prefetch\\*' -Force -ErrorAction SilentlyContinue"] -> RC=0
+[2025-12-02 23:50:20] INFO: CMD: ['powershell', '-Command', "Remove-Item -Path '$env:SystemRoot\\SoftwareDistribution\\Download\\*' -Recurse -Force -ErrorAction SilentlyContinue"] -> RC=1
+[2025-12-02 23:50:20] INFO: Executado: action_clean_temp
+[2025-12-02 23:50:54] INFO: CMD: ['sfc', '/scannow'] -> RC=0
+[2025-12-02 23:54:09] INFO: CMD: ['sfc', '/scannow'] -> RC=1
+[2025-12-02 23:56:06] INFO: CMD: ['DISM', '/Online', '/Cleanup-Image', '/RestoreHealth'] -> RC=0
+[2025-12-02 23:56:07] INFO: CMD: ['sfc', '/scannow'] -> RC=0

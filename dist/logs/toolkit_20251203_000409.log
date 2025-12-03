@@ -1,0 +1,3 @@
+[2025-12-03 00:04:09] INFO: Aplicação GUI iniciada
+[2025-12-03 00:04:12] INFO: CMD: ['start', 'perfmon', '/report'] -> RC=0
+[2025-12-03 00:04:12] INFO: Executado: action_performance_report
