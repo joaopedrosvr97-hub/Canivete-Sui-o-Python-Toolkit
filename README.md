@@ -32,7 +32,7 @@ Execute o arquivo principal:
 
 Bash
 
-python canivete_gui.py
+python canivete.py
 🛠️ Módulos e Funcionalidades Principais
 O toolkit é dividido em seções para fácil navegação e automação de tarefas:
 
