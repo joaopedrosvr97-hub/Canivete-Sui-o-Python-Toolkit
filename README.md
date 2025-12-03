@@ -3,7 +3,7 @@ Ferramenta completa de diagnóstico, testes e análise de rede — tudo em um ú
 <p align="center"> <img src="https://img.shields.io/badge/Status-Ativo-32CD32?style=for-the-badge"> <img src="https://img.shields.io/badge/Versão-1.0.0-blue?style=for-the-badge"> <img src="https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python"> <img src="https://img.shields.io/badge/Plataforma-Windows%20%7C%20Linux-lightgrey?style=for-the-badge"> <img src="https://img.shields.io/badge/Licença-MIT-purple?style=for-the-badge"> </p>
 
 🔪 Canivete Suíço - PToolKit (GUI)
-Uma ferramenta de administração de sistemas multi-plataforma e open source, desenvolvida em Python com interface gráfica (Tkinter), que centraliza funções essenciais de diagnóstico, manutenção e segurança. Ideal para técnicos e administradores que precisam automatizar tarefas repetitivas.
+Uma ferramenta de administração de sistemas multi-plataforma e open source, desenvolvida em Python/HTML com interface gráfica (Tkinter), que centraliza funções essenciais de diagnóstico, manutenção e segurança. Ideal para técnicos e administradores que precisam automatizar tarefas repetitivas.
 
 ⚠️ Aviso de Segurança e Requisitos
 Requisitos
