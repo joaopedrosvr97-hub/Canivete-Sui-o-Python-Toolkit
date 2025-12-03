@@ -1,3 +1,12 @@
-# Documentação Completa
-
-Este arquivo contém toda documentação do projeto.
+Canivete-Suico-Network-Toolkit/
+│
+├── README.md
+│
+├── docs/
+│   └── DOCUMENTACAO.md
+│
+├── src/
+│   └── canivete.py   
+│
+└── logs/
+    └── (gerado automaticamente)
