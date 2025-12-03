@@ -1,0 +1,58 @@
+# ====================================
+# 1. ARQUIVOS DE COMPILAÇÃO E DISTRIBUIÇÃO (PyInstaller)
+# ====================================
+# Pastas geradas pelo PyInstaller:
+dist/
+build/
+*.spec
+
+# Arquivos de executável (binários)
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ====================================
+# 2. CACHE E AMBIENTE PYTHON
+# ====================================
+# Cache de bytecode (criado ao rodar o Python):
+__pycache__/
+*.pyc
+
+# Ambientes virtuais (muito grandes e não devem ser versionados):
+venv/
+.venv/
+env/
+
+# ====================================
+# 3. METADADOS, LOGS E SENHAS (Dados Sensíveis)
+# ====================================
+# Logs de testes, diagnóstico ou erro (podem conter caminhos do sistema ou dados):
+*.log
+*.err
+*.out
+logs/
+
+# Arquivos de configuração/variáveis de ambiente que contêm chaves ou senhas:
+.env
+.flaskenv
+config.local.py
+settings_local.py
+secrets.py
+keys.json
+
+# Arquivos de dados temporários e de teste:
+# Se seus testes criam arquivos de saída, inclua-os aqui:
+test_output/
+*.tmp
+*.temp
+test_results.json
+
+# ====================================
+# 4. CONFIGURAÇÕES DE EDITOR (VS Code e Outros)
+# ====================================
+# Configurações específicas do usuário/ambiente do VS Code:
+.vscode/
+
+# Configurações do Sublime Text:
+*.sublime-workspace

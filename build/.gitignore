@@ -1,0 +1,43 @@
+# Arquivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Logs e saídas da ferramenta
+logs/
+*.log
+*.out
+*.err
+*.tmp
+
+# Resultados de testes
+test-results/
+*.report
+*.txt
+*.csv
+*.json
+
+# PyInstaller / Build
+build/
+dist/
+*.spec
+*.toc
+
+# Backups e relatórios sensíveis
+rede_info_*.txt
+RegBackup_*/
+HKLM.reg
+HKCU.reg
+HKCR.reg
+
+# Arquivos temporários do sistema
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
